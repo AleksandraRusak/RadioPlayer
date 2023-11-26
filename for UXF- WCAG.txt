@@ -1,0 +1,25 @@
+1. Explain the importance of semantic elements in web development according to accessibility guidelines. Provide examples of at least two semantic HTML elements and clarify how they enhance accessibility for users with disabilities. 
+
+På webbsidor finns det speciella delar som gör det lättare för alla att förstå sidan. Dessa delar kallas semantiska element och hjälper till exempel personer som har ett program som läser upp texten på skärmen. 
+Exemplar av semantiska element: <form>, <table>. <form>: Används för att skapa interaktiva formulär på webbsidor. Hjälper personer som använder hjälpmedel att förstå var de kan mata in och skicka information. 
+<table>: Används för att visa data i rutnät. Gör det lättare för skärmläsare att tolka och navigera informationen, så att användare kan förstå hur data hänger ihop.
+
+2 . Describe the significance of color contrast in web design concerning accessibility. How does adhering to color contrast guidelines benefit users with visual impairments, and what are the recommended contrast ratios as per WCAG standards?
+
+När man gör en webbsida är det viktigt att text och bakgrund har färger som är lätta att se skillnad på. Det finns regler som säger hur olika färgerna ska vara, och det hjälper personer som inte ser så bra. 
+För vanlig text ska färgerna skilja sig mycket åt så att alla kan läsa texten lätt. Enligt WCAG-riktlinjerna bör kontrastförhållandet mellan text och bakgrund vara åtminstone 4.5:1 för normal text och 3:1 för stor text. 
+
+3. Discuss the role of alternative text (alt text) for images in accordance with accessibility guidelines. Why is it crucial to include descriptive alt text, and how does this contribute to making web content more accessible? Provide examples to illustrate your explanation.
+
+Alt-text är korta beskrivningar som berättar vad som visas på en bild för de som inte kan se den själva. Det är viktigt för personer som använder program som läser upp innehållet på en webbsida. 
+Till exempel, om det finns en bild på en katt, skulle en bra alt-text vara "en grå katt som sitter och tittar ut genom ett fönster". Det hjälper de som inte kan se bilden att få en bild i huvudet av vad den visar.
+
+4. Explain the purpose of landmarks in creating accessible web content. How do landmarks aid in navigation for users of assistive technologies, and can you provide examples of commonly used landmark elements in HTML?
+
+För att göra det enkelt att hitta på en webbsida finns det speciella märken, som är som skyltar som visar vägen. De kallas landmärken och är delar som <header>, <footer> och <main>. 
+Dessa hjälper till exempel personer som använder skärmläsare att snabbt hoppa till viktiga delar av sidan.
+
+
+5. Describe the significance of proper form labeling. Why is it important to label form elements, and what strategies can developers implement to ensure effective labeling for improved accessibility?
+
+När det finns formulär på en webbsida är det viktigt att det står vad man ska skriva i varje fält. Detta görs med hjälp av <label>-elementet. Det gör att till exempel personer som har svårt att se kan förstå vad de ska fylla i. Det hjälper alla att använda formuläret rätt.

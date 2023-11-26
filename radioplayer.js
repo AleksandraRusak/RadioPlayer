@@ -17,11 +17,18 @@ fetch("https://api.sr.se/api/v2/channels/?format=json")
       // Skapa element för varje kanal
       const channelElement = document.createElement("div");
       channelElement.className = "channel";
+      channelElement.style.backgroundColor = channel.color;
 
       // Lägg till kanalens namn
       const nameElement = document.createElement("h2");
       nameElement.textContent = channel.name;
       channelElement.appendChild(nameElement);
+
+      // image
+      const img = document.createElement("img");
+      img.src = channel.image; // Assume the API returns an 'image' key
+      img.alt = channel.name + " logo";
+      channelElement.appendChild(img);
 
       // Steg 3. Lägg till en audio tagg med liveaudio.url
       if (channel.liveaudio && channel.liveaudio.url) {
